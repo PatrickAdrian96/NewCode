@@ -150,7 +150,7 @@ $r = mysqli_query($incluir) or die("erro ao incluir ");
 	<!--Copyright -->
 		<div id="copyright">
 			<div class="container">
-				Design: <a>Patrick Adrian & Leonardo Dutra</a>(<a>CC0</a>) Turma:<a>T3-IT1</a> 
+				Design: <a>Patrick Adrian</a>(<a>CC0</a>) Turma:<a>T3-IT1</a> 
 			</div>
 		</div>
 
