@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Facemash</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+	
+	<body class="homepage">
+
+	<!-- Header -->
+		<div id="header">
+			<div id="nav-wrapper"> 
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li class="active"><a href="#">Cadastra</a></li>
+						<li><a href="login.html">Login</a></li>
+						
+					
+					</ul>
+				</nav>
+			</div>
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a>Facemash</a></h1>
+					<span class="tag">By Alunos Alcides Maya</span>
+				</div>
+			</div>
+		</div>
+
+	<!-- Featured -->
+		<div id="featured">
+			<div class="container">
+				<header>
+					<h3>Cadastre-se</h3>
+				
+	
+	<form id="form1" method="post" action="cadastrando.php" enctype="multipart/form-data">
+
+		<ul>
+			<li>
+			Login:<label for="login"></label>
+			<input type="text" id="login" required
+			name="login" placeholder="Digite seu Login">
+			</li>
+			
+			<li>
+			Nome:<label for="nome"></label>
+			<input type="text" id="nome" required
+			name="nome" placeholder="Digite seu Nome">
+			</li>
+			
+			<li>
+			Fone:<label for="fone"></label>
+			<input type="number" id="fone" required
+			name="fone" placeholder="Telefone - Celular">
+			</li>
+
+			<li>
+			E-mail:<label for="email"></label>
+			<input type="email" id="email" required
+			name="email" placeholder="Digite seu e-mail" >
+			</li>
+					
+			<li>
+			Senha:<label for="senha"></label>
+			<input type="password" id="senha" required
+			name="senha" placeholder="Digite sua senha">
+			</li>
+
+			<li>
+			Confirma:<label for="senha2"></label>
+			<input type="password" id="senha2" required
+			name="cf" placeholder="Repita sua senha" onInput="validaSenha(this)">
+			</li>		
+                <input type="file" name="foto" id="fileField" />
+		
+
+			<li>
+			     <input type="reset" id="cadastrar" value="Limpar" >
+				<input type="submit" id="cadastrar" value="Cadastrar">
+			</li>
+			
+		</ul>
+		</form>
+
+				</div>
+			</div>
+		</div>
+
+	<!-- Main -->
+		<div id="main">
+			<div id="content" class="container">
+
+				<div class="row">
+					<section class="6u">
+						
+					</section>		
+				</div>
+			
+			</div>
+		</div>
+
+	<!-- Tweet -->
+		<div id="tweet">
+			<div class="container">
+				<section>
+					<blockquote>&ldquo;Trocava toda minha tecnologia por uma tarde com Sócrates.
+                                                        Steve Jobs 		&rdquo;</blockquote>
+				</section>
+			</div>
+		</div>
+
+	<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<section>
+					<header>
+						<h2>Redes Sociais</h2>
+						<span class="byline">Conecte-se a outras redes sociais</span>
+					</header>
+					<ul class="contact">
+						<li><a href="https://twitter.com/?lang=pt-br" class="fa fa-twitter"><span>Twitter</span></a></li>
+						<li class="active"><a href="http://facebook.com.br/" class="fa fa-facebook"><span>Facebook</span></a></li>
+						<li><a href="https://dribbble.com/" class="fa fa-dribbble"><span>Pinterest</span></a></li>
+						<li><a href="https://www.tumblr.com/login?language=pt_BR" class="fa fa-tumblr"><span>Tumblr</span></a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container">
+				Design: <a>Patrick Adrian & Leonardo Dutra</a>(<a>CC0</a>) Turma:<a>T3-IT1</a> 
+			</div>
+		</div>
+
+	</body>
+</html>
